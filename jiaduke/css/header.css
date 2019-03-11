@@ -1,0 +1,92 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+header{
+  text-align: center;
+}
+a{
+  text-decoration: none;
+}
+img{
+  vertical-align:bottom;
+}
+.jdk_header{
+  margin:0 auto;
+  width:1200px;
+  height:102px;
+  background:#fff;
+  margin-top:40px;
+}
+
+.font_color_g{
+  color:#999;
+}
+.font_color_nav{
+  color:#602962;
+}
+.font_size_b{
+  font-family: "宋体";
+  font-size: 16px;
+}
+
+.font_size_l{
+  font-family: "宋体";
+  font-size:14px;
+}
+.font_size_m{
+  font-family: "宋体";
+  font-size:15px;
+}
+.wel{
+  width:185px;
+  height:19px;
+}
+.tel{
+  margin-left:30px;
+}
+.log{
+  width:200px;
+  height:17px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+
+}
+.log>li{
+  list-style: none;
+  margin:0 5px 0
+}
+.margin_l{
+  margin-left:30px;
+}
+.margin_t{
+  margin-top:30px;
+}
+.vertic_m{
+  vertical-align: middle;
+}
+.shop{
+  margin-top:-5px;
+  margin-left:100px;
+}
+.shop>a{
+  cursor: pointer;
+}
+.nav{
+  width:1010px;
+  height:83px;
+  line-height:83px;
+  margin-bottom:0px;
+  list-style: none;
+  display:flex;
+  margin-left:188px;
+  justify-content: space-around;
+}
+ul.nav>li:nth-child(2n-1){
+  width:110px;
+}
+ul.nav>li:nth-child(2n-1):hover{
+  border-bottom: 4px solid #602960;
+}
